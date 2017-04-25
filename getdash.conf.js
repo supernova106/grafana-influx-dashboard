@@ -25,7 +25,9 @@ var getDashConf = function getDashConf () {
       host: 'host',                  // Defaults are set to work with CollectD metric collector.
       instance: 'instance',
       description: 'type_instance',
-      type: 'type'
+      type: 'type',                  // support sensu
+      ip: 'ip',
+      metric: 'metric',
     }
   };
 
